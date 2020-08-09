@@ -1,6 +1,8 @@
 import React from "react"
 import { Link } from "gatsby"
 
+import "../components/layout.css"
+
 const IndexPage = () => (
 	<div className="hero">
 		<div className="bloomberg">
