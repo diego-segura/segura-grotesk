@@ -1,22 +1,29 @@
 import React from "react"
 import { Link } from "gatsby"
 
-import Layout from "../components/layout"
-import Image from "../components/image"
-import SEO from "../components/seo"
-
 const IndexPage = () => (
-  <Layout>
-    <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
-    </div>
-    <Link to="/page-2/">Go to page 2</Link> <br />
-    <Link to="/using-typescript/">Go to "Using TypeScript"</Link>
-  </Layout>
+	<div className="hero">
+		<div className="bloomberg">
+			<a className="bloomberg-title" href="/">Diego Segura</a>
+		</div>
+		<div className="topbar">
+			<a href="/">
+				<img class="profile-picture" src="https://blot.im/cdn/blog_51c1129e9c0c4c98abcbba21b06dbd10/_avatars/5335a610-fd14-4aa6-90d9-fc2baa1c709f.jpg"></img>
+			</a>
+			<div className="segura-nav">
+			<a href="/" class="logo">Diego Segura</a>
+				<a href="/" class="nav">AAA</a>
+				<a href="/" class="nav">AAA</a>
+				<a href="/" class="nav">AAA</a>
+			</div>
+		</div>
+		<div className="hero-group">
+			<h1>Hi Ryan</h1>
+			<p>It's working, sort of.</p>
+			<p>This is fun</p>
+			<Link to="/page-2/">Go fuck yaself</Link> <br />
+		</div>
+	</div>
 )
 
 export default IndexPage
